@@ -2,7 +2,6 @@
 
 import React from 'react'
 import Typewriter from 'typewriter-effect'
-import Image from 'next/image'
 import heroImage from '../../public/image/logo.jpg'
 import heroImage2 from '../../public/image/logo 2.png'
 import heroImage3 from '../../public/image/logo 3.jpg'
@@ -228,15 +227,7 @@ export default function Home() {
               <span className="title-font font-bold text-black">@Syed Ali Azhar</span>
             </span>
           </button>
-
         </div>
-
-
-
-
-
-
-
       </section>
 
       <section className="text-gray-400 body-font bg-gray-900">
