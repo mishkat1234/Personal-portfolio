@@ -38,7 +38,7 @@ export default function Home() {
           <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
             <a className="mr-5 hover:text-white">Home</a>
             <a className="mr-5 hover:text-white">About Us</a>
-            <a className="mr-5 hover:text-white">Contact Us</a>
+            <a className="mr-5 hover:text-white" href="#contact-us">Contact Us</a>
             <a className="hover:text-white">Privacy Policy</a>
           </nav>
           <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
@@ -217,7 +217,7 @@ export default function Home() {
 
 
 
-          <button className="flex mx-auto mt-16 py-3 px-5 rounded-lg items-center hover:bg-yellow-600 hover:bg-opacity-100 focus:outline-none  bg-sky-600">
+          <a href="https://github.com/mishkat1234" target="_blank" className="w-60 flex mx-auto mt-16 py-3 px-5 rounded-lg items-center hover:bg-yellow-600 hover:bg-opacity-100 focus:outline-none  bg-sky-600">
             <Image className="w-9 h-9" src={heroImage6}
               alt="heroImage3"
             />
@@ -227,7 +227,7 @@ export default function Home() {
               <span className="text-xs text-white mb-1">GIT HUB</span>
               <span className="title-font font-bold text-black">@Syed Ali Azhar</span>
             </span>
-          </button>
+          </a>
         </div>
       </section>
 
@@ -290,7 +290,7 @@ export default function Home() {
 
 
 
-      <section className="text-gray-400 bg-gray-900 body-font">
+      <section className="text-gray-400 bg-gray-900 body-font" id="contact-us">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="text-4xl font-black title-font mb-4 text-yellow-500 tracking-widest uppercase">Contact Us</h1>
