@@ -3,7 +3,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 import Image from 'next/image'
-import Image2 from 'next/image'
 import heroImage from '../../public/image/logo.jpg'
 import heroImage2 from '../../public/image/logo 2.png'
 import heroImage3 from '../../public/image/logo 3.jpg'
@@ -246,7 +245,7 @@ export default function Home() {
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="sm:text-3xl text-4xl font-medium title-font mb-2 text-white transition-transform duration-500 hover:scale-105">
-                Unlock My Skill Set's Hidden Talents
+                Unlock My Skill Set &apos;s Hidden Talents
               </h1>
               <div className="h-1 w-20 bg-yellow-500 rounded"></div>
             </div>
