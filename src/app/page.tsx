@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Typewriter from 'typewriter-effect'
+import Image from 'next/image'
 import heroImage from '../../public/image/logo.jpg'
 import heroImage2 from '../../public/image/logo 2.png'
 import heroImage3 from '../../public/image/logo 3.jpg'
